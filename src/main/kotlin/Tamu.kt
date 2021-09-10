@@ -1,1 +1,1 @@
-data class Tamu (val nama : String)
+data class Tamu (val nama : String, val kedatangan : String)

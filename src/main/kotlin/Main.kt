@@ -4,6 +4,7 @@ fun main() {
         println("Selamat Datang")
         println("1. Catat Kehadiran")
         println("2. Tampilkan Semua Daftar Tamu")
+        println("3. Keluar")
         print("\nPilihan : ")
         val pilihan = readLine()
         when (pilihan?.toInt()){
@@ -14,6 +15,7 @@ fun main() {
                 println("Terima Kasih Sudah Berkunjung")
             }
             2 -> println(bukuTamu.tampilkan())
+            3 -> return
         }
     }
 }
