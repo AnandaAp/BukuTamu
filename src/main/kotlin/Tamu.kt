@@ -1,0 +1,1 @@
+data class Tamu (val nama : String)
